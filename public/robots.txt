@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://caravanuyghur.com/sitemap.xml

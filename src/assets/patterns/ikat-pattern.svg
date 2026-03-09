@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <filter id="ikat-blur">
+      <feGaussianBlur stdDeviation="1.5" />
+    </filter>
+  </defs>
+  <rect width="200" height="200" fill="none"/>
+  <!-- Central diamond -->
+  <polygon points="100,20 180,100 100,180 20,100" fill="none" stroke="#d4a843" stroke-width="1.5" opacity="0.3" filter="url(#ikat-blur)"/>
+  <polygon points="100,40 160,100 100,160 40,100" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.2" filter="url(#ikat-blur)"/>
+  <polygon points="100,60 140,100 100,140 60,100" fill="none" stroke="#6c3483" stroke-width="1" opacity="0.15" filter="url(#ikat-blur)"/>
+  <!-- Corner accents -->
+  <polygon points="0,0 30,0 0,30" fill="#d4a843" opacity="0.1" filter="url(#ikat-blur)"/>
+  <polygon points="200,0 200,30 170,0" fill="#d4a843" opacity="0.1" filter="url(#ikat-blur)"/>
+  <polygon points="0,200 0,170 30,200" fill="#d4a843" opacity="0.1" filter="url(#ikat-blur)"/>
+  <polygon points="200,200 170,200 200,170" fill="#d4a843" opacity="0.1" filter="url(#ikat-blur)"/>
+  <!-- Side diamonds -->
+  <polygon points="100,0 115,15 100,30 85,15" fill="#c0392b" opacity="0.12" filter="url(#ikat-blur)"/>
+  <polygon points="100,170 115,185 100,200 85,185" fill="#c0392b" opacity="0.12" filter="url(#ikat-blur)"/>
+  <polygon points="0,100 15,85 30,100 15,115" fill="#6c3483" opacity="0.1" filter="url(#ikat-blur)"/>
+  <polygon points="170,100 185,85 200,100 185,115" fill="#6c3483" opacity="0.1" filter="url(#ikat-blur)"/>
+</svg>

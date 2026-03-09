@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "menu": "Menü",
+    "ourStory": "Hikayemiz",
+    "contact": "İletişim",
+    "reserve": "Rezervasyon",
+    "reserveTable": "Masa Ayırtın",
+    "skipToContent": "Ana içeriğe geç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "navLabel": "Ana navigasyon",
+    "mobileNavLabel": "Navigasyon menüsü"
+  },
+  "hero": {
+    "tagline": "İpek Yolu'nun Lezzetleri",
+    "subtitle": "Gelenekle hazırlanan, gönülden sunulan otantik Uygur mutfağı. El yapımı erişte ve ateşte pişirilen kebaplardan — her yemek kadim İpek Yolu'nun hikayesini anlatır.",
+    "exploreMenu": "Menüyü Keşfedin",
+    "ourStory": "Hikayemiz",
+    "sideText": "İpek Yolu Mutfağı",
+    "scroll": "Kaydırın"
+  },
+  "about": {
+    "title": "İpek Yolu'nun Tadı",
+    "text1": "Yüzyıllar boyunca İpek Yolu ipek ve baharattan fazlasını taşıdı — hikayeler, gelenekler ve bir medeniyetin tatlarını taşıdı. Caravan'da Uygur halkının mutfak mirasını onurlandırıyor, Orta Asya mutfağının sıcaklığını ve zenginliğini sofranıza getiriyoruz.",
+    "text2": "Her yemek bir yolculuk — sipariş üzerine çekilen lagman eriştelerin, kimyonla yavaş pişirilen kuzu etine ve taze pişmiş nan ekmeğine. Tariflerimiz nesilden nesile aktarılmış, her biri Uygur yemek sanatının ve ruhunun tanığı.",
+    "viewMenu": "Tam Menüyü Görün",
+    "imageAlt": "Geleneksel Uygur çayı ve ballı kek"
+  },
+  "featured": {
+    "title": "İmza Yemekler",
+    "subtitle": "Nesilden nesile aktarılan Uygur geleneksel tariflerle el yapımı.",
+    "badge": "Öne Çıkan",
+    "handmade": "Her Gün El Yapımı"
+  },
+  "testimonials": {
+    "title": "Misafirlerimiz Ne Diyor",
+    "subtitle": "İlk ziyaretçilerden sadık müdavimlerimize, Caravan kalıcı bir izlenim bırakır."
+  },
+  "location": {
+    "title": "Bizi Ziyaret Edin",
+    "subtitle": "Şehrin kalbinde yer alıyoruz, sizi İpek Yolu'na karşılamaya hazırız.",
+    "address": "Adres",
+    "contactLabel": "İletişim",
+    "hoursLabel": "Çalışma Saatleri",
+    "mapTitle": "Caravan Restoran Konumu"
+  },
+  "hours": {
+    "monday": "Pzt: Kapalı",
+    "weekday": "Sal – Per: 11:00 – 21:00",
+    "friday": "Cum: 17:00 – 22:00",
+    "weekend": "Cts – Paz: 11:00 – 22:00"
+  },
+  "menu": {
+    "heroOverline": "İpek Yolu Sofrası",
+    "heroTitle": "Menümüz",
+    "categoryLabel": "Menü kategorileri",
+    "panelLabel": "{{category}} yemekleri"
+  },
+  "categories": {
+    "All": "Tümü",
+    "Kebabs & Grills": "Kebaplar & Izgara",
+    "Noodles": "Erişte",
+    "Rice Dishes": "Pirinç Yemekleri",
+    "Soups": "Çorbalar",
+    "Breads & Dumplings": "Ekmek & Mantı",
+    "Vegetables & Sides": "Sebzeler & Yan Ürünler",
+    "Desserts & Tea": "Tatlılar & Çay"
+  },
+  "footer": {
+    "description": "İpek Yolu'nun kalbinden gelen otantik Uygur mutfağı. Her yemek nesilden nesile aktarılan gelenek, baharat ve ruhun hikayesini anlatır.",
+    "contactTitle": "İletişim",
+    "hoursTitle": "Çalışma Saatleri",
+    "copyright": "Caravan Uygur Restoranı",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar"
+  },
+  "meta": {
+    "homeTitle": "Caravan — Otantik Uygur Mutfağı",
+    "homeDescription": "Caravan, İpek Yolu'nun zengin lezzetlerini sofranıza taşır. New York'ta el yapımı erişte, yumuşak kebaplar ve aromatik pilav ile otantik Uygur mutfağı.",
+    "menuTitle": "Menü — Caravan Uygur Mutfağı | Helal Restoran NYC",
+    "menuDescription": "Helal Uygur menümüze göz atın: el yapımı lagman, kuzu kebap, polo pilavı, samsa, mantı ve daha fazlası. 60 Beaver St, Finans Bölgesi, NYC."
+  },
+  "langSwitcher": {
+    "label": "Dil seçin",
+    "current": "Dil: {{lang}}"
+  },
+  "dishes": {
+    "1": { "description": "Yumuşak marine edilmiş kuzu eti şişlere dizilip, kimyon ve pul biber ile açık ateşte pişirilir." },
+    "2": { "description": "Sulu kemikli kuzu pirzola Uygur baharatlarıyla tatlandırılmış, mükemmel kızartılmış." },
+    "3": { "description": "Bütün kuzu kaburga kimyonla yavaş pişirilmiş, taze otlar ve ev yapımı sos ile servis edilir." },
+    "4": { "description": "Serbest gezen tavuk İpek Yolu baharatlarıyla altın rengi ve çıtır olana kadar fırınlanmış." },
+    "5": { "description": "El çekmesi erişte, domates-biber sosunda yumuşak kuzu eti ve sebzelerle." },
+    "6": { "description": "El çekmesi erişte, yanında yavaş pişirilmiş zengin et sosu ile servis edilir." },
+    "7": { "description": "El çekmesi erişte kuzu eti, biber, domates ve aromatik baharatlarla wokta çevrilmiş." },
+    "8": { "description": "Zengin kemik suyu, el çekmesi erişte, yumuşak dana dilimi ve taze otlarla." },
+    "9": { "description": "Kuzu eti, havuç, soğan ve kuru üzümle yavaş pişirilmiş aromatik pirinç pilavı — Uygur mutfağının tacı." },
+    "10": { "description": "Patates ve biberle baharatlı sotelenmiş tavuk, yassı erişte üzerinde servis edilir." },
+    "11": { "description": "Kök sebzeler ve ısıtan baharatlarla yavaş kaynatılmış kuzu kemik çorbası." },
+    "12": { "description": "Kimyonlu zengin et suyunda yumuşak kuzu eti ve patates yahnisi." },
+    "13": { "description": "Baharatlı kuzu eti ve soğanla doldurulmuş kat kat börek, tandırda altın rengi pişirilmiş." },
+    "14": { "description": "Baharatlı kuzu eti ile doldurulmuş geleneksel etli ekmek, çamur fırında çıtır pişirilmiş." },
+    "15": { "description": "Baharatlı kuzu eti ile doldurulmuş buğulanmış mantı, ekşi yoğurt ve acı yağ ile servis edilir." },
+    "16": { "description": "Taze pişmiş nan ekmeği üzerinde yumuşak dilimlenmiş kuzu eti, otlar ve baharatlarla." },
+    "17": { "description": "Sarımsak, kurutulmuş acı biber ve Sichuan biberinde wokta çevrilmiş yeşil fasulye." },
+    "18": { "description": "Sirke, acı biber ve sarımsakla basit ve lezzetli sotelenmiş lahana." },
+    "19": { "description": "Taze salatalık ve olgun domatesler otlarla hafif vinegrette sosunda." },
+    "20": { "description": "Sarımsak, acı yağ ve siyah sirke ile marine edilmiş ezme salatalık." },
+    "21": { "description": "Ceviz ve kuru meyveli katmanlı ballı kek, geleneksel çayla servis edilir." },
+    "22": { "description": "Kurutulmuş gül, otlar ve goji meyvelerinden geleneksel çaydanlıkta demlenen aromatik çay." }
+  }
+}

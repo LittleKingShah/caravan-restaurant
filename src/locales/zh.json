@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "首页",
+    "menu": "菜单",
+    "ourStory": "我们的故事",
+    "contact": "联系我们",
+    "reserve": "预约",
+    "reserveTable": "预约座位",
+    "skipToContent": "跳至主要内容",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "navLabel": "主导航",
+    "mobileNavLabel": "导航菜单"
+  },
+  "hero": {
+    "tagline": "丝绸之路的味道",
+    "subtitle": "传承千年的维吾尔美食，从手工拉面到炭烤羊肉串——每一道菜都诉说着古丝绸之路的故事。",
+    "exploreMenu": "探索菜单",
+    "ourStory": "我们的故事",
+    "sideText": "丝绸之路美食",
+    "scroll": "向下滑动"
+  },
+  "about": {
+    "title": "丝绸之路的味道",
+    "text1": "千百年来，丝绸之路承载的不仅是丝绸与香料——它传递着故事、传统和文明的味道。在Caravan，我们致敬维吾尔族的烹饪传承，将中亚美食的温暖与丰富带到您的餐桌。",
+    "text2": "每一道菜都是一段旅程——从现拉的拌面到慢烤孜然羊排配新鲜烤馕。我们的食谱代代相传，每一道都是维吾尔烹饪艺术与灵魂的见证。",
+    "viewMenu": "查看完整菜单",
+    "imageAlt": "传统维吾尔茶与蜂蜜蛋糕"
+  },
+  "featured": {
+    "title": "招牌菜品",
+    "subtitle": "以维吾尔传统代代相传的配方，精心手工制作。",
+    "badge": "招牌",
+    "handmade": "每日手工制作"
+  },
+  "testimonials": {
+    "title": "食客评价",
+    "subtitle": "从初次光临到忠实常客，Caravan留下了深刻印象。"
+  },
+  "location": {
+    "title": "到店用餐",
+    "subtitle": "我们位于市中心，随时欢迎您来到丝绸之路。",
+    "address": "地址",
+    "contactLabel": "联系方式",
+    "hoursLabel": "营业时间",
+    "mapTitle": "Caravan餐厅位置"
+  },
+  "hours": {
+    "monday": "周一：休息",
+    "weekday": "周二至周四：11:00 – 21:00",
+    "friday": "周五：17:00 – 22:00",
+    "weekend": "周六至周日：11:00 – 22:00"
+  },
+  "menu": {
+    "heroOverline": "丝绸之路餐桌",
+    "heroTitle": "菜单",
+    "categoryLabel": "菜品分类",
+    "panelLabel": "{{category}}菜品"
+  },
+  "categories": {
+    "All": "全部",
+    "Kebabs & Grills": "烤肉串",
+    "Noodles": "面食",
+    "Rice Dishes": "米饭",
+    "Soups": "汤类",
+    "Breads & Dumplings": "面点",
+    "Vegetables & Sides": "蔬菜小菜",
+    "Desserts & Tea": "甜点与茶"
+  },
+  "footer": {
+    "description": "来自丝绸之路中心的正宗维吾尔美食。每一道菜都诉说着代代相传的传统、香料与灵魂的故事。",
+    "contactTitle": "联系方式",
+    "hoursTitle": "营业时间",
+    "copyright": "Caravan 维吾尔餐厅",
+    "privacy": "隐私政策",
+    "terms": "使用条款"
+  },
+  "meta": {
+    "homeTitle": "Caravan — 正宗维吾尔美食",
+    "homeDescription": "Caravan将丝绸之路的丰富风味带到您的餐桌。纽约正宗维吾尔美食，包括手工拉面、嫩烤羊肉串和香喷喷的抓饭。",
+    "menuTitle": "菜单 — Caravan 维吾尔美食 | 纽约清真餐厅",
+    "menuDescription": "浏览我们的清真维吾尔菜单：手工拉面、羊肉串、抓饭、烤包子、饺子等。纽约金融区 60 Beaver St。"
+  },
+  "langSwitcher": {
+    "label": "选择语言",
+    "current": "语言：{{lang}}"
+  },
+  "dishes": {
+    "1": { "description": "鲜嫩腌制羊肉穿串，以孜然和辣椒片明火烤制。" },
+    "2": { "description": "多汁带骨羊排，以维吾尔香料调味，炭火烤制。" },
+    "3": { "description": "整架羊排以孜然慢烤，配新鲜香草和自制酱料。" },
+    "4": { "description": "散养鸡以丝路香料烤至金黄酥脆。" },
+    "5": { "description": "手工拉面配番茄辣椒酱、嫩羊肉和时蔬。" },
+    "6": { "description": "手工拉面配慢炖浓郁肉酱。" },
+    "7": { "description": "手工拉面与羊肉、辣椒、番茄和香料一起炒制。" },
+    "8": { "description": "浓郁骨汤配手工拉面、嫩牛肉片和新鲜香草。" },
+    "9": { "description": "羊肉、胡萝卜、洋葱和葡萄干慢煮的香喷喷抓饭——维吾尔美食的皇冠明珠。" },
+    "10": { "description": "辣炖鸡配土豆和辣椒，铺在宽面上。" },
+    "11": { "description": "慢炖羊骨汤配根茎蔬菜和暖身香料。" },
+    "12": { "description": "孜然香浓汤底中的嫩羊肉和土豆炖菜。" },
+    "13": { "description": "馕坑烤制的酥脆烤包子，内馅为调味羊肉和洋葱。" },
+    "14": { "description": "传统肉馕，填满调味羊肉，在泥炉中烤至酥脆。" },
+    "15": { "description": "蒸制羊肉馅饺子，配酸奶和辣椒油。" },
+    "16": { "description": "新鲜烤馕上铺嫩切羊肉，配香草和香料。" },
+    "17": { "description": "蒜香干辣椒和花椒爆炒四季豆。" },
+    "18": { "description": "醋、辣椒和蒜香炒卷心菜。" },
+    "19": { "description": "新鲜黄瓜和番茄配香草轻拌沙拉。" },
+    "20": { "description": "蒜香辣椒油和黑醋腌制的拍黄瓜。" },
+    "21": { "description": "核桃和干果层层叠叠的蜂蜜蛋糕，配传统茶。" },
+    "22": { "description": "干玫瑰、香草和枸杞在传统茶壶中冲泡的芳香茶。" }
+  }
+}

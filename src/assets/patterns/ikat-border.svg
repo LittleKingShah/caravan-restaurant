@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="40" viewBox="0 0 400 40">
+  <defs>
+    <filter id="border-blur">
+      <feGaussianBlur stdDeviation="1" />
+    </filter>
+  </defs>
+  <rect width="400" height="40" fill="none"/>
+  <!-- Repeating diamond chain -->
+  <polygon points="20,20 40,5 60,20 40,35" fill="none" stroke="#d4a843" stroke-width="1" opacity="0.4" filter="url(#border-blur)"/>
+  <polygon points="60,20 80,5 100,20 80,35" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.3" filter="url(#border-blur)"/>
+  <polygon points="100,20 120,5 140,20 120,35" fill="none" stroke="#6c3483" stroke-width="1" opacity="0.25" filter="url(#border-blur)"/>
+  <polygon points="140,20 160,5 180,20 160,35" fill="none" stroke="#d4a843" stroke-width="1" opacity="0.4" filter="url(#border-blur)"/>
+  <polygon points="180,20 200,5 220,20 200,35" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.3" filter="url(#border-blur)"/>
+  <polygon points="220,20 240,5 260,20 240,35" fill="none" stroke="#6c3483" stroke-width="1" opacity="0.25" filter="url(#border-blur)"/>
+  <polygon points="260,20 280,5 300,20 280,35" fill="none" stroke="#d4a843" stroke-width="1" opacity="0.4" filter="url(#border-blur)"/>
+  <polygon points="300,20 320,5 340,20 320,35" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.3" filter="url(#border-blur)"/>
+  <polygon points="340,20 360,5 380,20 360,35" fill="none" stroke="#6c3483" stroke-width="1" opacity="0.25" filter="url(#border-blur)"/>
+  <!-- Connecting lines -->
+  <line x1="0" y1="20" x2="400" y2="20" stroke="#d4a843" stroke-width="0.5" opacity="0.2"/>
+</svg>

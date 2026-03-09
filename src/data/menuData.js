@@ -1,0 +1,206 @@
+export const categories = [
+  'All',
+  'Kebabs & Grills',
+  'Noodles',
+  'Rice Dishes',
+  'Soups',
+  'Breads & Dumplings',
+  'Vegetables & Sides',
+  'Desserts & Tea',
+];
+
+export const menuItems = [
+  // Kebabs & Grills
+  {
+    id: 1,
+    name: 'Lamb Kebab Skewers',
+    description: 'Tender marinated lamb threaded on skewers and grilled over open flame with cumin and chili flakes.',
+    price: 18,
+    category: 'Kebabs & Grills',
+    image: '/images/menu/lamb-kebab-skewers.webp',
+    featured: true,
+  },
+  {
+    id: 2,
+    name: 'Lamb Chop Kebabs',
+    description: 'Juicy bone-in lamb chops seasoned with Uyghur spices, charred to perfection.',
+    price: 24,
+    category: 'Kebabs & Grills',
+    image: '/images/menu/lamb-chop-kebabs.webp',
+  },
+  {
+    id: 3,
+    name: 'Rack of Lamb',
+    description: 'Whole rack slow-roasted with cumin, served with fresh herbs and house-made sauce.',
+    price: 38,
+    category: 'Kebabs & Grills',
+    image: '/images/menu/rack-of-lamb.webp',
+  },
+  {
+    id: 4,
+    name: 'Roasted Whole Chicken',
+    description: 'Free-range chicken roasted with Silk Road spices until golden and crispy.',
+    price: 28,
+    category: 'Kebabs & Grills',
+    image: '/images/menu/roasted-chicken.webp',
+  },
+
+  // Noodles
+  {
+    id: 5,
+    name: 'Laghman',
+    description: 'Hand-pulled noodles tossed in a savory tomato-pepper sauce with tender lamb and vegetables.',
+    price: 16,
+    category: 'Noodles',
+    image: '/images/menu/laghman.webp',
+    featured: true,
+  },
+  {
+    id: 6,
+    name: 'Laghman with Sauce',
+    description: 'Hand-pulled noodles served with a rich, slow-cooked meat sauce on the side.',
+    price: 17,
+    category: 'Noodles',
+    image: '/images/menu/laghman-with-sauce.webp',
+  },
+  {
+    id: 7,
+    name: 'Suoman Guruche',
+    description: 'Stir-fried hand-pulled noodles with lamb, peppers, tomatoes, and aromatic spices.',
+    price: 16,
+    category: 'Noodles',
+    image: '/images/menu/suoman-stir-fried-noodles.webp',
+  },
+  {
+    id: 8,
+    name: 'Beef Noodle Soup',
+    description: 'Rich bone broth with hand-pulled noodles, tender beef slices, and fresh herbs.',
+    price: 15,
+    category: 'Noodles',
+    image: '/images/menu/beef-noodle-soup.webp',
+  },
+
+  // Rice Dishes
+  {
+    id: 9,
+    name: 'Polo (Pilaf)',
+    description: 'Fragrant rice pilaf slow-cooked with lamb, carrots, onions, and raisins — the crown jewel of Uyghur cuisine.',
+    price: 18,
+    category: 'Rice Dishes',
+    image: '/images/menu/polo-pilaf.webp',
+    featured: true,
+  },
+  {
+    id: 10,
+    name: 'Da Pan Ji',
+    description: 'Spicy braised chicken with potatoes and peppers, served over a bed of belt noodles.',
+    price: 22,
+    category: 'Rice Dishes',
+    image: '/images/menu/spicy-chicken-rice.webp',
+  },
+
+  // Soups
+  {
+    id: 11,
+    name: 'Lamb Bone Soup',
+    description: 'Hearty slow-simmered lamb bone broth with root vegetables and warming spices.',
+    price: 14,
+    category: 'Soups',
+    image: '/images/menu/lamb-bone-soup.webp',
+  },
+  {
+    id: 12,
+    name: 'Lamb Potato Stew',
+    description: 'Rustic stew of tender lamb and potatoes in a rich, cumin-scented broth.',
+    price: 15,
+    category: 'Soups',
+    image: '/images/menu/lamb-potato-stew.webp',
+  },
+
+  // Breads & Dumplings
+  {
+    id: 13,
+    name: 'Samsa',
+    description: 'Flaky baked pastry stuffed with seasoned lamb and onions, golden from the tandoor.',
+    price: 8,
+    category: 'Breads & Dumplings',
+    image: '/images/menu/samsa-buns.webp',
+  },
+  {
+    id: 14,
+    name: 'Gosh Nan (Meat Pie)',
+    description: 'Traditional flatbread stuffed with spiced lamb, baked crispy in a clay oven.',
+    price: 12,
+    category: 'Breads & Dumplings',
+    image: '/images/menu/gosh-nan-meat-pie.webp',
+  },
+  {
+    id: 15,
+    name: 'Manti (Dumplings)',
+    description: 'Steamed dumplings filled with seasoned lamb, served with tangy yogurt and chili oil.',
+    price: 14,
+    category: 'Breads & Dumplings',
+    image: '/images/menu/manti-dumplings.webp',
+    featured: true,
+  },
+  {
+    id: 16,
+    name: 'Lamb on Naan (Etkan Nan)',
+    description: 'Tender sliced lamb served atop freshly baked naan bread with herbs and spices.',
+    price: 16,
+    category: 'Breads & Dumplings',
+    image: '/images/menu/lamb-on-naan.webp',
+  },
+
+  // Vegetables & Sides
+  {
+    id: 17,
+    name: 'Spicy Green Beans',
+    description: 'Wok-fired green beans with garlic, dried chilies, and Sichuan peppercorn.',
+    price: 10,
+    category: 'Vegetables & Sides',
+    image: '/images/menu/spicy-green-beans.webp',
+  },
+  {
+    id: 18,
+    name: 'Stir-Fried Cabbage',
+    description: 'Simple and savory stir-fried cabbage with vinegar, chili, and garlic.',
+    price: 9,
+    category: 'Vegetables & Sides',
+    image: '/images/menu/stir-fried-cabbage.webp',
+  },
+  {
+    id: 19,
+    name: 'Cucumber Tomato Salad',
+    description: 'Crisp cucumbers and ripe tomatoes tossed with herbs in a light vinaigrette.',
+    price: 8,
+    category: 'Vegetables & Sides',
+    image: '/images/menu/cucumber-tomato-salad.webp',
+  },
+  {
+    id: 20,
+    name: 'Smashed Cucumber Salad',
+    description: 'Crunchy smashed cucumbers marinated in garlic, chili oil, and black vinegar.',
+    price: 8,
+    category: 'Vegetables & Sides',
+    image: '/images/menu/smashed-cucumber-salad.webp',
+  },
+
+  // Desserts & Tea
+  {
+    id: 21,
+    name: 'Uyghur Honey Cake',
+    description: 'Layered honey cake with walnuts and dried fruits, served with traditional tea.',
+    price: 10,
+    category: 'Desserts & Tea',
+    image: '/images/menu/cake-with-tea.webp',
+  },
+  {
+    id: 22,
+    name: 'Rose & Herbal Tea',
+    description: 'Fragrant blend of dried roses, herbs, and goji berries steeped in a traditional pot.',
+    price: 6,
+    category: 'Desserts & Tea',
+    image: '/images/menu/herbal-rose-tea.webp',
+  },
+];

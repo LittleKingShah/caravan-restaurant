@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "ourStory": "Our Story",
+    "contact": "Contact",
+    "reserve": "Reserve",
+    "reserveTable": "Reserve a Table",
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "navLabel": "Main navigation",
+    "mobileNavLabel": "Navigation menu"
+  },
+  "hero": {
+    "tagline": "Flavors of the Silk Road",
+    "subtitle": "Authentic Uyghur cuisine crafted with tradition, served with soul. From hand-pulled noodles to flame-kissed kebabs — every dish tells a story of the ancient Silk Road.",
+    "exploreMenu": "Explore Our Menu",
+    "ourStory": "Our Story",
+    "sideText": "Est. — Silk Road Cuisine",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "A Taste of the Silk Road",
+    "text1": "For centuries, the Silk Road carried more than silk and spices — it carried stories, traditions, and the flavors of a civilization. At Caravan, we honor the culinary heritage of the Uyghur people, bringing the warmth and richness of Central Asian cuisine to your table.",
+    "text2": "Every dish is a journey — from hand-pulled laghman noodles stretched to order, to tender lamb slow-roasted with cumin and served on freshly baked naan. Our recipes have been passed down through generations, each one a testament to the artistry and soul of Uyghur cooking.",
+    "viewMenu": "View Full Menu",
+    "imageAlt": "Traditional Uyghur tea and honey cake"
+  },
+  "featured": {
+    "title": "Signature Dishes",
+    "subtitle": "Hand-crafted with recipes passed down through generations of Uyghur tradition.",
+    "badge": "Featured",
+    "handmade": "Handmade Daily"
+  },
+  "testimonials": {
+    "title": "What Our Guests Say",
+    "subtitle": "From first-time visitors to devoted regulars, Caravan leaves a lasting impression."
+  },
+  "location": {
+    "title": "Visit Us",
+    "subtitle": "We're located in the heart of the city, ready to welcome you to the Silk Road.",
+    "address": "Address",
+    "contactLabel": "Contact",
+    "hoursLabel": "Hours",
+    "mapTitle": "Caravan Restaurant Location"
+  },
+  "hours": {
+    "monday": "Mon: Closed",
+    "weekday": "Tue – Thu: 11:00 AM – 9:00 PM",
+    "friday": "Fri: 5:00 PM – 10:00 PM",
+    "weekend": "Sat – Sun: 11:00 AM – 10:00 PM"
+  },
+  "menu": {
+    "heroOverline": "The Silk Road Table",
+    "heroTitle": "Our Menu",
+    "categoryLabel": "Menu categories",
+    "panelLabel": "{{category}} dishes"
+  },
+  "categories": {
+    "All": "All",
+    "Kebabs & Grills": "Kebabs & Grills",
+    "Noodles": "Noodles",
+    "Rice Dishes": "Rice Dishes",
+    "Soups": "Soups",
+    "Breads & Dumplings": "Breads & Dumplings",
+    "Vegetables & Sides": "Vegetables & Sides",
+    "Desserts & Tea": "Desserts & Tea"
+  },
+  "footer": {
+    "description": "Authentic Uyghur cuisine from the heart of the Silk Road. Every dish tells a story of tradition, spice, and soul passed down through generations.",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "copyright": "Caravan Uyghur Restaurant",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "meta": {
+    "homeTitle": "Caravan — Authentic Uyghur Cuisine",
+    "homeDescription": "Caravan brings the rich flavors of the Silk Road to your table. Authentic Uyghur cuisine featuring hand-pulled noodles, tender kebabs, and aromatic pilaf in New York.",
+    "menuTitle": "Menu — Caravan Uyghur Cuisine | Halal Restaurant NYC",
+    "menuDescription": "Browse our halal Uyghur menu: hand-pulled laghman, lamb kebabs, polo pilaf, samsa, manti dumplings, and more. 60 Beaver St, Financial District, NYC."
+  },
+  "langSwitcher": {
+    "label": "Select language",
+    "current": "Language: {{lang}}"
+  },
+  "dishes": {
+    "1": { "description": "Tender marinated lamb threaded on skewers and grilled over open flame with cumin and chili flakes." },
+    "2": { "description": "Juicy bone-in lamb chops seasoned with Uyghur spices, charred to perfection." },
+    "3": { "description": "Whole rack slow-roasted with cumin, served with fresh herbs and house-made sauce." },
+    "4": { "description": "Free-range chicken roasted with Silk Road spices until golden and crispy." },
+    "5": { "description": "Hand-pulled noodles tossed in a savory tomato-pepper sauce with tender lamb and vegetables." },
+    "6": { "description": "Hand-pulled noodles served with a rich, slow-cooked meat sauce on the side." },
+    "7": { "description": "Stir-fried hand-pulled noodles with lamb, peppers, tomatoes, and aromatic spices." },
+    "8": { "description": "Rich bone broth with hand-pulled noodles, tender beef slices, and fresh herbs." },
+    "9": { "description": "Fragrant rice pilaf slow-cooked with lamb, carrots, onions, and raisins — the crown jewel of Uyghur cuisine." },
+    "10": { "description": "Spicy braised chicken with potatoes and peppers, served over a bed of belt noodles." },
+    "11": { "description": "Hearty slow-simmered lamb bone broth with root vegetables and warming spices." },
+    "12": { "description": "Rustic stew of tender lamb and potatoes in a rich, cumin-scented broth." },
+    "13": { "description": "Flaky baked pastry stuffed with seasoned lamb and onions, golden from the tandoor." },
+    "14": { "description": "Traditional flatbread stuffed with spiced lamb, baked crispy in a clay oven." },
+    "15": { "description": "Steamed dumplings filled with seasoned lamb, served with tangy yogurt and chili oil." },
+    "16": { "description": "Tender sliced lamb served atop freshly baked naan bread with herbs and spices." },
+    "17": { "description": "Wok-fired green beans with garlic, dried chilies, and Sichuan peppercorn." },
+    "18": { "description": "Simple and savory stir-fried cabbage with vinegar, chili, and garlic." },
+    "19": { "description": "Crisp cucumbers and ripe tomatoes tossed with herbs in a light vinaigrette." },
+    "20": { "description": "Crunchy smashed cucumbers marinated in garlic, chili oil, and black vinegar." },
+    "21": { "description": "Layered honey cake with walnuts and dried fruits, served with traditional tea." },
+    "22": { "description": "Fragrant blend of dried roses, herbs, and goji berries steeped in a traditional pot." }
+  }
+}
