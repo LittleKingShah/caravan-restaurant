@@ -9,6 +9,15 @@ import ar from './locales/ar.json'
 
 export const SUPPORTED_LANGS = ['en', 'ug', 'zh', 'tr', 'ar']
 export const DEFAULT_LANG = 'en'
+
+export function detectBrowserLang() {
+  const langs = navigator.languages || [navigator.language]
+  for (const raw of langs) {
+    const code = raw.split('-')[0].toLowerCase()
+    if (SUPPORTED_LANGS.includes(code)) return code
+  }
+  return DEFAULT_LANG
+}
 export const RTL_LANGS = ['ug', 'ar']
 
 export const LANG_LABELS = {

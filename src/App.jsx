@@ -2,7 +2,7 @@ import { Routes, Route, Navigate, useLocation, useParams } from 'react-router-do
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { AnimatePresence } from 'framer-motion'
-import { SUPPORTED_LANGS, DEFAULT_LANG, RTL_LANGS } from './i18n'
+import { SUPPORTED_LANGS, DEFAULT_LANG, RTL_LANGS, detectBrowserLang } from './i18n'
 import Layout from './components/layout/Layout'
 import HomePage from './pages/HomePage'
 import MenuPage from './pages/MenuPage'
@@ -24,7 +24,7 @@ function LangWrapper({ children }) {
   }, [lang])
 
   if (!SUPPORTED_LANGS.includes(lang)) {
-    return <Navigate to={`/${DEFAULT_LANG}/`} replace />
+    return <Navigate to={`/${detectBrowserLang()}/`} replace />
   }
 
   return children
@@ -48,7 +48,7 @@ function AppRoutes() {
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to={`/${DEFAULT_LANG}/`} replace />} />
+      <Route path="/" element={<Navigate to={`/${detectBrowserLang()}/`} replace />} />
       <Route path="/:lang/*" element={
         <LangWrapper>
           <Layout>
