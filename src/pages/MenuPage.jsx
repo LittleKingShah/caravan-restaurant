@@ -55,7 +55,7 @@ export default function MenuPage() {
       </Helmet>
 
       {/* Hero banner */}
-      <section className="relative h-[20vh] sm:h-[45vh] min-h-[140px] sm:min-h-[340px] flex items-end sm:items-center justify-center pb-6 sm:pb-0 overflow-hidden safe-top">
+      <section className="relative h-[20vh] sm:h-[45vh] min-h-[140px] sm:min-h-[340px] flex items-end sm:items-center justify-center pb-6 sm:pb-0 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{ backgroundImage: "url('/images/menu/polo-pilaf.webp')" }}
