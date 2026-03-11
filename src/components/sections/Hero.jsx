@@ -22,7 +22,7 @@ export default function Hero() {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1])
 
   return (
-    <section ref={ref} className="relative h-dvh min-h-[700px] flex items-center justify-center overflow-hidden">
+    <section ref={ref} className="relative h-dvh min-h-[700px] flex items-center justify-center overflow-hidden -mt-[calc(5rem+env(safe-area-inset-top))] lg:-mt-[calc(6rem+env(safe-area-inset-top))]">
       {/* Background image with parallax + scale */}
       <motion.div className="absolute inset-0 z-0" style={{ y: bgY, scale }}>
         <div

@@ -55,7 +55,7 @@ export default function MenuPage() {
       </Helmet>
 
       {/* Hero banner */}
-      <section className="relative h-[20vh] sm:h-[45vh] min-h-[140px] sm:min-h-[340px] flex items-end sm:items-center justify-center pb-6 sm:pb-0 overflow-hidden">
+      <section className="relative h-[20vh] sm:h-[45vh] min-h-[140px] sm:min-h-[340px] flex items-end sm:items-center justify-center pb-6 sm:pb-0 overflow-hidden -mt-[calc(5rem+env(safe-area-inset-top))] lg:-mt-[calc(6rem+env(safe-area-inset-top))] pt-[calc(5rem+env(safe-area-inset-top))] lg:pt-[calc(6rem+env(safe-area-inset-top))]">
         <div
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{ backgroundImage: "url('/images/menu/polo-pilaf.webp')" }}
@@ -106,7 +106,7 @@ export default function MenuPage() {
 
         <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           {/* Category tabs */}
-          <div className="sticky top-0 z-30 bg-caravan-dark pb-4 sm:pb-8 pt-3 sm:pt-4 -mt-4">
+          <div className="sticky top-[calc(5rem+env(safe-area-inset-top))] lg:top-[calc(6rem+env(safe-area-inset-top))] z-30 bg-caravan-dark pb-4 sm:pb-8 pt-3 sm:pt-4 -mt-4">
             <div
               className="flex overflow-x-auto gap-2 sm:gap-3 sm:flex-wrap sm:justify-center no-scrollbar"
               role="tablist"
