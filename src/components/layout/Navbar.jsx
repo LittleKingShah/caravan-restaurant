@@ -92,7 +92,7 @@ export default function Navbar() {
       aria-label={t('nav.navLabel')}
       className={`fixed top-0 left-0 right-0 z-50 pt-[env(safe-area-inset-top)] transition-[background-color,border-color] duration-500 ${
         scrolled
-          ? 'bg-caravan-dark/95 border-b border-caravan-gold/8'
+          ? 'bg-caravan-dark border-b border-caravan-gold/8'
           : 'bg-transparent'
       }`}
     >
