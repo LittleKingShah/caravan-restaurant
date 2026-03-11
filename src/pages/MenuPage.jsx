@@ -106,7 +106,7 @@ export default function MenuPage() {
 
         <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           {/* Category tabs */}
-          <div className="sticky top-[calc(5rem+env(safe-area-inset-top))] lg:top-[calc(6rem+env(safe-area-inset-top))] z-30 bg-caravan-dark pb-4 sm:pb-8 pt-3 sm:pt-4 -mt-4">
+          <div className="sticky top-20 lg:top-24 z-30 bg-caravan-dark pb-4 sm:pb-8 pt-3 sm:pt-4 -mt-4">
             <div
               className="flex overflow-x-auto gap-2 sm:gap-3 sm:flex-wrap sm:justify-center no-scrollbar"
               role="tablist"
