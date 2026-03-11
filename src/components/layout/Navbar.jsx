@@ -90,7 +90,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label={t('nav.navLabel')}
-      className={`absolute top-0 left-0 right-0 z-50 transition-[background-color,border-color] duration-500 bg-transparent`}
+      className={`absolute top-0 left-0 right-0 z-50 safe-top transition-[background-color,border-color] duration-500 bg-transparent`}
     >
       {/* Skip link */}
       <a

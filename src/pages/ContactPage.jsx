@@ -115,7 +115,7 @@ export default function ContactPage() {
       </Helmet>
 
       {/* Hero banner */}
-      <section className="relative h-[40vh] min-h-80 flex items-center justify-center overflow-hidden">
+      <section className="relative h-[40vh] min-h-80 flex items-center justify-center overflow-hidden safe-top">
         <div
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{ backgroundImage: "url('/images/menu/lamb-on-naan.webp')" }}
