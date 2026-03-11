@@ -108,5 +108,35 @@
     "20": { "description": "Sarımsak, acı yağ ve siyah sirke ile marine edilmiş ezme salatalık." },
     "21": { "description": "Ceviz ve kuru meyveli katmanlı ballı kek, geleneksel çayla servis edilir." },
     "22": { "description": "Kurutulmuş gül, otlar ve goji meyvelerinden geleneksel çaydanlıkta demlenen aromatik çay." }
+  },
+  "contact": {
+    "metaTitle": "İletişim — Caravan Uygur Mutfağı | NYC",
+    "metaDescription": "Caravan Uygur Mutfağı ile iletişime geçin. Rezervasyon, catering ve sorularınız için.",
+    "heroOverline": "İletişime Geçin",
+    "heroTitle": "Bize Ulaşın",
+    "formTitle": "Mesaj Gönderin",
+    "nameLabel": "İsim",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "email@adresiniz.com",
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Konu seçin",
+    "subjectReservation": "Rezervasyon",
+    "subjectCatering": "Catering",
+    "subjectFeedback": "Geri Bildirim",
+    "subjectOther": "Diğer",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+    "sendButton": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "successTitle": "Mesaj Gönderildi!",
+    "successMessage": "Bize ulaştığınız için teşekkürler. En kısa sürede dönüş yapacağız.",
+    "sendAnother": "Başka Mesaj Gönder",
+    "errorMessage": "Bir hata oluştu. Tekrar deneyin veya doğrudan e-posta gönderin."
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "message": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana Sayfaya Dön"
   }
 }

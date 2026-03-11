@@ -9,7 +9,7 @@ import FeaturedDishes from '../components/sections/FeaturedDishes'
 import Testimonials from '../components/sections/Testimonials'
 import LocationHours from '../components/sections/LocationHours'
 
-const SITE_URL = 'https://caravanuyghur.com'
+const SITE_URL = 'https://caravan-restaurant.vercel.app'
 
 export default function HomePage() {
   const { t } = useTranslation()

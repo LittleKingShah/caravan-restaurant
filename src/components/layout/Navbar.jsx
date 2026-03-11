@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import useLocalizedPath from '../../hooks/useLocalizedPath'
@@ -12,14 +12,59 @@ export default function Navbar() {
   const location = useLocation()
   const { t } = useTranslation()
   const lp = useLocalizedPath()
+  const navigate = useNavigate()
   const { x } = useDirection()
+
+  const homePath = lp('/')
+  const [activeHash, setActiveHash] = useState(null)
 
   const NAV_LINKS = [
     { to: lp('/'), label: t('nav.home') },
     { to: lp('/menu'), label: t('nav.menu') },
-    { to: lp('/#about'), label: t('nav.ourStory') },
-    { to: lp('/#contact'), label: t('nav.contact') },
+    { to: lp('/#about'), label: t('nav.ourStory'), hash: 'about' },
+    { to: lp('/contact'), label: t('nav.contact') },
   ]
+
+  // Track which section is in view on homepage
+  useEffect(() => {
+    const path = location.pathname.replace(/\/$/, '')
+    const home = homePath.replace(/\/$/, '')
+    if (path !== home) {
+      setActiveHash(null)
+      return
+    }
+
+    const el = document.getElementById('about')
+    if (!el) return
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setActiveHash(entry.isIntersecting ? 'about' : null),
+      { threshold: 0.3 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [location.pathname, homePath])
+
+  function handleHashClick(e, link) {
+    if (!link.hash) return
+    e.preventDefault()
+    const path = location.pathname.replace(/\/$/, '')
+    const home = homePath.replace(/\/$/, '')
+    if (path === home) {
+      document.getElementById(link.hash)?.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      navigate(homePath)
+      setTimeout(() => {
+        document.getElementById(link.hash)?.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    }
+  }
+
+  function isActive(link) {
+    if (link.hash) return activeHash === link.hash
+    if (link.to === homePath) return location.pathname === link.to && !activeHash
+    return location.pathname === link.to
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80)
@@ -45,7 +90,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label={t('nav.navLabel')}
-      className={`fixed top-0 left-0 right-0 z-50 transition-[background-color,border-color] duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 pt-[env(safe-area-inset-top)] transition-[background-color,border-color] duration-500 ${
         scrolled
           ? 'bg-caravan-dark/95 border-b border-caravan-gold/8'
           : 'bg-transparent'
@@ -75,18 +120,19 @@ export default function Navbar() {
               <Link
                 key={link.to}
                 to={link.to}
+                onClick={(e) => handleHashClick(e, link)}
                 className="relative group focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-caravan-gold"
-                aria-current={location.pathname === link.to ? 'page' : undefined}
+                aria-current={isActive(link) ? 'page' : undefined}
               >
                 <span className={`text-xs font-body font-medium uppercase tracking-[0.2em] transition-colors duration-300 ${
-                  location.pathname === link.to
+                  isActive(link)
                     ? 'text-caravan-gold'
                     : 'text-caravan-cream/50 group-hover:text-caravan-cream'
                 }`}>
                   {link.label}
                 </span>
                 <span className={`absolute -bottom-1.5 start-0 w-full h-px bg-caravan-gold transition-transform duration-300 origin-[start] ${
-                  location.pathname === link.to ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                  isActive(link) ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
                 }`} aria-hidden="true" />
               </Link>
             ))}
@@ -141,7 +187,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="md:hidden fixed inset-0 top-20 bg-caravan-dark/98 z-40"
+            className="md:hidden fixed inset-0 top-[calc(5rem+env(safe-area-inset-top))] bg-caravan-dark/98 z-40"
           >
             <div className="px-8 py-12 flex flex-col gap-6">
               {NAV_LINKS.map((link, i) => (
@@ -153,8 +199,9 @@ export default function Navbar() {
                 >
                   <Link
                     to={link.to}
+                    onClick={(e) => handleHashClick(e, link)}
                     className="text-caravan-cream/70 font-heading text-3xl font-light hover:text-caravan-gold transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-caravan-gold"
-                    aria-current={location.pathname === link.to ? 'page' : undefined}
+                    aria-current={isActive(link) ? 'page' : undefined}
                   >
                     {link.label}
                   </Link>

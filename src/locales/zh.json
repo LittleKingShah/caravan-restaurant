@@ -108,5 +108,35 @@
     "20": { "description": "蒜香辣椒油和黑醋腌制的拍黄瓜。" },
     "21": { "description": "核桃和干果层层叠叠的蜂蜜蛋糕，配传统茶。" },
     "22": { "description": "干玫瑰、香草和枸杞在传统茶壶中冲泡的芳香茶。" }
+  },
+  "contact": {
+    "metaTitle": "联系我们 — 丝路驼队维吾尔美食 | 纽约",
+    "metaDescription": "联系丝路驼队维吾尔餐厅。预订、外烩服务和咨询。",
+    "heroOverline": "联系我们",
+    "heroTitle": "与我们联系",
+    "formTitle": "发送消息",
+    "nameLabel": "姓名",
+    "namePlaceholder": "您的姓名",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "您的邮箱",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "选择主题",
+    "subjectReservation": "预订",
+    "subjectCatering": "外烩服务",
+    "subjectFeedback": "反馈",
+    "subjectOther": "其他",
+    "messageLabel": "消息",
+    "messagePlaceholder": "我们能为您做什么？",
+    "sendButton": "发送消息",
+    "sending": "发送中...",
+    "successTitle": "消息已发送！",
+    "successMessage": "感谢您的来信。我们会尽快回复您。",
+    "sendAnother": "再发一条消息",
+    "errorMessage": "出了点问题。请重试或直接发送邮件。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "您查找的页面不存在或已被移动。",
+    "backHome": "返回首页"
   }
 }

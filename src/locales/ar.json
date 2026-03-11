@@ -108,5 +108,35 @@
     "20": { "description": "خيار مهروس مقرمش متبل بالثوم وزيت حار وخل أسود." },
     "21": { "description": "كعكة عسل بطبقات مع الجوز والفواكه المجففة، تقدم مع شاي تقليدي." },
     "22": { "description": "مزيج عطري من الورد المجفف والأعشاب وتوت الغوجي منقوع في إبريق تقليدي." }
+  },
+  "contact": {
+    "metaTitle": "تواصل معنا — كارافان المطبخ الأويغوري | نيويورك",
+    "metaDescription": "تواصل مع مطعم كارافان للمأكولات الأويغورية. حجوزات، تقديم طعام، واستفسارات.",
+    "heroOverline": "تواصل معنا",
+    "heroTitle": "اتصل بنا",
+    "formTitle": "أرسل رسالة",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "اسمك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "بريدك@الإلكتروني.com",
+    "subjectLabel": "الموضوع",
+    "subjectPlaceholder": "اختر موضوعاً",
+    "subjectReservation": "حجز",
+    "subjectCatering": "تقديم طعام",
+    "subjectFeedback": "ملاحظات",
+    "subjectOther": "أخرى",
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "كيف يمكننا مساعدتك؟",
+    "sendButton": "إرسال الرسالة",
+    "sending": "جارٍ الإرسال...",
+    "successTitle": "تم إرسال الرسالة!",
+    "successMessage": "شكراً لتواصلك معنا. سنرد عليك قريباً.",
+    "sendAnother": "إرسال رسالة أخرى",
+    "errorMessage": "حدث خطأ. يرجى المحاولة مرة أخرى أو مراسلتنا مباشرة."
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "message": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "backHome": "العودة للرئيسية"
   }
 }

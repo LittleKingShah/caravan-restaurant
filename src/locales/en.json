@@ -79,7 +79,9 @@
     "homeTitle": "Caravan — Authentic Uyghur Cuisine",
     "homeDescription": "Caravan brings the rich flavors of the Silk Road to your table. Authentic Uyghur cuisine featuring hand-pulled noodles, tender kebabs, and aromatic pilaf in New York.",
     "menuTitle": "Menu — Caravan Uyghur Cuisine | Halal Restaurant NYC",
-    "menuDescription": "Browse our halal Uyghur menu: hand-pulled laghman, lamb kebabs, polo pilaf, samsa, manti dumplings, and more. 60 Beaver St, Financial District, NYC."
+    "menuDescription": "Browse our halal Uyghur menu: hand-pulled laghman, lamb kebabs, polo pilaf, samsa, manti dumplings, and more. 60 Beaver St, Financial District, NYC.",
+    "contactTitle": "Contact — Caravan Uyghur Cuisine | NYC",
+    "contactDescription": "Get in touch with Caravan Uyghur Cuisine. Reservations, catering, and inquiries. 60 Beaver St, Financial District, NYC."
   },
   "langSwitcher": {
     "label": "Select language",
@@ -108,5 +110,35 @@
     "20": { "description": "Crunchy smashed cucumbers marinated in garlic, chili oil, and black vinegar." },
     "21": { "description": "Layered honey cake with walnuts and dried fruits, served with traditional tea." },
     "22": { "description": "Fragrant blend of dried roses, herbs, and goji berries steeped in a traditional pot." }
+  },
+  "contact": {
+    "metaTitle": "Contact — Caravan Uyghur Cuisine | NYC",
+    "metaDescription": "Get in touch with Caravan Uyghur Cuisine. Reservations, catering, and inquiries. 60 Beaver St, Financial District, NYC.",
+    "heroOverline": "Get in Touch",
+    "heroTitle": "Contact Us",
+    "formTitle": "Send a Message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Select a subject",
+    "subjectReservation": "Reservation",
+    "subjectCatering": "Catering",
+    "subjectFeedback": "Feedback",
+    "subjectOther": "Other",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you soon.",
+    "sendAnother": "Send Another Message",
+    "errorMessage": "Something went wrong. Please try again or email us directly."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
   }
 }

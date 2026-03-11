@@ -3,9 +3,19 @@ import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { AnimatePresence } from 'framer-motion'
 import { SUPPORTED_LANGS, DEFAULT_LANG, RTL_LANGS, detectBrowserLang } from './i18n'
+
+function ScrollToTop() {
+  const { pathname, hash } = useLocation()
+  useEffect(() => {
+    if (!hash) window.scrollTo(0, 0)
+  }, [pathname, hash])
+  return null
+}
 import Layout from './components/layout/Layout'
 import HomePage from './pages/HomePage'
 import MenuPage from './pages/MenuPage'
+import NotFoundPage from './pages/NotFoundPage'
+import ContactPage from './pages/ContactPage'
 
 function LangWrapper({ children }) {
   const { lang } = useParams()
@@ -38,8 +48,12 @@ function AppRoutes() {
     <AnimatePresence mode="wait">
       {subPath === 'menu' ? (
         <MenuPage key="menu" />
-      ) : (
+      ) : subPath === 'contact' ? (
+        <ContactPage key="contact" />
+      ) : subPath === '' ? (
         <HomePage key="home" />
+      ) : (
+        <NotFoundPage key="404" />
       )}
     </AnimatePresence>
   )
@@ -47,6 +61,8 @@ function AppRoutes() {
 
 function App() {
   return (
+    <>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Navigate to={`/${detectBrowserLang()}/`} replace />} />
       <Route path="/:lang/*" element={
@@ -57,6 +73,7 @@ function App() {
         </LangWrapper>
       } />
     </Routes>
+    </>
   )
 }
 
