@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@utility safe-top {
-  padding-top: env(safe-area-inset-top);
-}
-
 @utility no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;

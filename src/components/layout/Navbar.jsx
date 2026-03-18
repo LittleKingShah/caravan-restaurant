@@ -90,7 +90,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label={t('nav.navLabel')}
-      className="fixed top-0 left-0 right-0 z-50 bg-caravan-dark pt-[env(safe-area-inset-top)] border-b border-caravan-gold/8"
+      className="fixed top-0 left-0 right-0 z-50 bg-caravan-dark border-b border-caravan-gold/8"
     >
       {/* Skip link */}
       <a
@@ -183,7 +183,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
-            className="md:hidden fixed inset-0 top-[calc(5rem+env(safe-area-inset-top))] bg-caravan-dark/98 z-40"
+            className="md:hidden fixed inset-0 top-20 bg-caravan-dark/98 z-40"
           >
             <div className="px-8 py-12 flex flex-col gap-6">
               {NAV_LINKS.map((link, i) => (
